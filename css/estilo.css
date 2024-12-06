@@ -1,0 +1,195 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Patua+One&display=swap');
+
+html,
+body,
+.capa {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background: url('imagens/background.png'),
+        url('imagens/ruido.png'),
+        linear-gradient(30deg, #DAAC03, #272720);
+    background-size: cover;
+    font-family: 'Bree Serif', 'Patua One', arial;
+    overflow-x: hidden;
+}
+
+/* -- Barra de navegação -- */
+.navbar {
+    background-color: #272720;
+    color: #DAAC03;
+}
+
+.navbar .nav-link {
+    color: #DAAC03;
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff;
+}
+
+/* -- Logo centralizada -- */
+.logo-centralizada {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-centralizada img {
+    max-width: 300px;
+    /* Aumenta o tamanho da logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Centraliza a logo */
+}
+
+/* -- Capa -- */
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: #EEE6C2;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* -- Seção de eventos -- */
+#eventos {
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #EEE6C2;
+}
+
+.black-row {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.black-row .card {
+    background-color: #000000;
+    border: none;
+}
+
+.black-row .card img {
+    width: 100%;
+    height: auto;
+}
+
+.info-panel {
+    background-color: #272720;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* -- Seção de recursos -- */
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#horarios {
+    padding: 20px 0;
+    color: #EEE6C2;
+}
+
+#horarios h2 {
+    color: #DAAC03;
+    margin-bottom: 20px;
+}
+
+/* Estilização da tabela */
+.horarios-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #DAAC03;
+    background-color: #272720;
+}
+
+.horarios-table thead {
+    background-color: #DAAC03;
+    color: #272720;
+}
+
+.horarios-table th,
+.horarios-table td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #DAAC03;
+}
+
+.horarios-table tbody tr:nth-child(odd) {
+    background-color: #333333;
+}
+
+.horarios-table tbody tr:nth-child(even) {
+    background-color: #444444;
+}
+
+.horarios-table tbody tr:hover {
+    background-color: #555555;
+    color: #DAAC03;
+}
+
+/* Seção de contato */
+.contato-section {
+    background-color: #272720;
+    /* Background preto */
+    color: #EEE6C2;
+    /* Texto claro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilização dos títulos e textos */
+.contato-section h2 {
+    color: #DAAC03;
+    /* Título na cor amarela */
+}
+
+.contato-section p {
+    color: #EEE6C2;
+    /* Texto na cor clara */
+}
+
+/* Estilização do formulário */
+.contato-section .form-control {
+    background-color: #333;
+    /* Fundo do campo de formulário */
+    color: #EEE6C2;
+    /* Texto do campo de formulário */
+    border: 1px solid #DAAC03;
+    /* Borda amarela */
+}
+
+.contato-section .form-control::placeholder {
+    color: #AAA;
+    /* Placeholder cinza claro */
+}
+
+/* Estilização do botão */
+.contato-section .btn-primary {
+    background-color: #DAAC03;
+    /* Cor de fundo do botão */
+    border: none;
+    /* Sem borda */
+}
+
+form {
+    margin-bottom: 20px;
+    /* Ajuste o valor conforme necessário */
+}
+
+footer {
+    margin-top: 20px
+}

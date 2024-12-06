@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Configura a visualização para mobile de forma responsiva-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Patua+One&display=swap" rel="stylesheet">
+    <title>Gordos Burger - O Clássico de Jaú</title> 
+    <link rel="icon" href="imagens/favicon.png"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-inverse navbar-transparente">
+        <div class="container">
+            <ul class="nav navbar-nav navbar-left">
+                <!-- Itens da barra de navegação -->
+                <li><a class="nav-link js-scroll-trigger" href="index.html">Inicial</a></li> <!-- Link para a página inicial -->
+                <li><a class="nav-link js-scroll-trigger" href="cardapio.html">Cardápio</a></li> <!-- Link para o cardápio -->
+                <li><a class="nav-link js-scroll-trigger" href="formulario.html">Contato</a></li> <!-- Link para o formulário de contato -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção do formulário de contato -->
+    <div class="container mt-5 contato-section">
+        <h2>Entre em contato conosco!</h2> <!-- Título do formulário -->
+        <p>Tem alguma dúvida, sugestão ou deseja nos enviar um comentário? Preencha o formulário abaixo, e nossa equipe
+            entrará em contato com você o mais breve possível.</p>
+        <form>
+            <div class="form-row">
+                <!-- Campo para o nome -->
+                <div class="form-group col-md-6">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+                </div>
+                <!-- Campo para o email -->
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                </div>
+            </div>
+            <!-- Campo para o telefone -->
+            <div class="form-group">
+                <label for="telefone">Telefone (opcional)</label>
+                <input type="tel" class="form-control" id="telefone" placeholder="Telefone">
+            </div>
+            <!-- Campo para a mensagem -->
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+            <!-- Botão para enviar o formulário -->
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Rodapé do site -->
+    <footer id="rodape">
+        <div class="container">
+            <div class="row">
+                <!-- Logo no rodapé -->
+                <div class="col-md-3">
+                    <img class="img-logo-footer" src="imagens/logo.png" alt="Gordos Burger Logo"> <!-- Logo no rodapé -->
+                </div>
+                <!-- Endereço -->
+                <div class="col-md-6">
+                    </br>
+                    <h4>Rua da Fatec, 666 - Jaú, SP</h4> <!-- Endereço do estabelecimento -->
+                </div>
+                <!-- Redes sociais -->
+                <div class="col-md-3">
+                    <ul class="nav">
+                        <li class="item-rede-social"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imagens/facebook.png"></a></li> <!-- Link para Facebook -->
+                        <li class="item-rede-social"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imagens/instagram.png"></a></li> <!-- Link para Instagram -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap para funcionalidade -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.amazonaws.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

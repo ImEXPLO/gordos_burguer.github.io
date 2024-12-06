@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Configura a visualização para mobile de forma responsiva -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Patua+One&display=swap" rel="stylesheet"> <!-- Link para fontes personalizadas -->
+    <title>Gordos Burger - O Clássico de Jaú</title>
+    <link rel="icon" href="imagens/icon.png"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> <!-- Bootstrap-->
+    <link href="css/estilo.css" rel="stylesheet"> 
+</head>
+
+<body id="page-top">
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-inverse navbar-transparente">
+        <div class="container">
+            <ul class="nav navbar-nav navbar-left">
+                <!-- Itens da barra de navegação -->
+                <li><a class="nav-link js-scroll-trigger" href="index.html">Inicial</a></li> <!-- Link para a página inicial -->
+                <li><a class="nav-link js-scroll-trigger" href="cardapio.html">Cardápio</a></li> <!-- Link para o cardápio -->
+                <li><a class="nav-link js-scroll-trigger" href="formulario.html">Contato</a></li> <!-- Link para o formulário de contato -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Logo centralizada -->
+    <div class="logo-centralizada">
+        <img src="imagens/gordologo.png"> <!-- Logo do site -->
+    </div>
+
+    <!-- Seção de horários de funcionamento -->
+    <section id="horarios">
+        <div class="container text-center">
+            <h2>Tabela de Horários de Funcionamento</h2> <!-- Título da tabela de horários -->
+            <table class="table table-striped table-bordered horarios-table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Dia da Semana</th> <!-- Cabeçalho da coluna para dia da semana -->
+                        <th>Horário de Funcionamento</th> <!-- Cabeçalho da coluna para horário de funcionamento -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Terça a Sexta</td>
+                        <td>18h à 0h</td> <!-- Horário de funcionamento de terça a sexta -->
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>12h à 0h</td> <!-- Horário de funcionamento no sábado -->
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>12h às 23h</td> <!-- Horário de funcionamento no domingo -->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Seção de eventos -->
+    <section id="eventos">
+        <div class="container">
+            <div class="row black-row">
+                <!-- Coluna das imagens em álbum -->
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <img class="card-img-top" src="imagens/img1.png"> <!-- Primeira imagem do álbum -->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <img class="card-img-top" src="imagens/img2.jpg"> <!-- Segunda imagem do álbum -->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <img class="card-img-top" src="imagens/img3.jpg"> <!-- Terceira imagem do álbum -->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <img class="card-img-top" src="imagens/img4.jpg"> <!-- Quarta imagem do álbum -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Coluna do painel de informações -->
+                <div class="col-md-4">
+                    <div class="info-panel">
+                        <h1>Que tal um Burger do Gordo's no seu evento?</h1> <!-- Título do painel de informações -->
+                        <p>Nos conte mais sobre o seu projeto e solicite um orçamento.</p> <!-- Descrição do painel de informações -->
+                        <a href="formulario.html" class="btn btn-dark">Entre em Contato</a> <!-- Botão de contato -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé do site -->
+    <footer id="rodape">
+        <div class="container">
+            <div class="row">
+                <!-- Logo no rodapé -->
+                <div class="col-md-3">
+                    <img class="img-logo-footer" src="imagens/logo.png" alt="Gordos Burger Logo"> <!-- Logo no rodapé -->
+                </div>
+                <!-- Endereço -->
+                <div class="col-md-6">
+                    </br>
+                    <h4>Rua da Fatec, 666 - Jaú, SP</h4> <!-- Endereço do estabelecimento -->
+                </div>
+                <!-- Redes sociais -->
+                <div class="col-md-3">
+                    <ul class="nav">
+                        <li class="item-rede-social"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imagens/facebook.png"></a></li> <!-- Link para Facebook -->
+                        <li class="item-rede-social"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imagens/instagram.png"></a></li> <!-- Link para Instagram -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap para funcionalidade -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
